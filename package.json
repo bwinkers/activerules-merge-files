@@ -30,13 +30,14 @@
   "homepage": "https://github.com/bwinkers/activerules-merge-files#readme",
   "devDependencies": {
     "chai": "^4.1.1",
+    "coveralls": "^2.13.1",
     "mocha": "^3.5.0",
-    "nyc": "^11.1.0"
+    "nyc": "^11.1.0",
+    "sinon": "^3.2.1"
   },
   "dependencies": {
     "activerules-read-files-promise": "^1.0.3",
     "bluebird": "^3.5.0",
-    "lodash.merge": "^4.6.0",
-    "sinon": "^3.2.1"
+    "lodash.merge": "^4.6.0"
   }
 }
