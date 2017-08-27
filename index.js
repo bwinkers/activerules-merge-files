@@ -28,13 +28,14 @@ AR.prototype.files = function (filePaths) {
     
     // Initialize the object we'll be adding layers to
     const merged = {};
-  
+
+    var parsedFiles = [];
+    
     return new Promise(
         function (resolve, reject) {
             try {
                 read(filePaths)
                 .then(function(files){
-                  var parsedFiles = [];
                   files.forEach(function(buffer){
                     if(typeof buffer !== 'undefined') {
                       merge(merged, JSON.parse(buffer));
