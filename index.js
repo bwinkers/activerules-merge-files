@@ -47,7 +47,7 @@ AR.prototype.files = function (filePaths) {
                 });
             } 
             catch(err) {
-              return; reject(err);
+              return reject(err);
             }
       }
     );
