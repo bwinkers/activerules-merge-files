@@ -1,6 +1,6 @@
 {
   "name": "activerules-merge-files",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Merges multiple context files together to create a customized profile for hyper-marketing",
   "main": "index.js",
   "directories": {
