@@ -1,6 +1,6 @@
 {
   "name": "activerules-merge-files",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Merges multiple context files together to create a customized profile for hyper-marketing",
   "main": "index.js",
   "directories": {
@@ -35,6 +35,7 @@
   },
   "dependencies": {
     "activerules-read-files-promise": "^1.0.3",
+    "lodash.merge": "^4.6.0",
     "sinon": "^3.2.1"
   }
 }
