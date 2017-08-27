@@ -42,8 +42,6 @@ AR.prototype.files = function (filePaths) {
                   });
                   // Resolve with the merged results
                   resolve(merged);
-                }, function(err) {
-                  return reject(err);
                 });
             } 
             catch(err) {
