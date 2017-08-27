@@ -1,0 +1,40 @@
+{
+  "name": "activerules-merge-files",
+  "version": "0.1.0",
+  "description": "Merges multiple context files together to create a customized profile for hyper-marketing",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "nyc --reporter=text mocha",
+    "coverage": "nyc report --reporter=text-lcov | coveralls"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bwinkers/activerules-merge-files.git"
+  },
+  "keywords": [
+    "activerules",
+    "file",
+    "merge",
+    "promise",
+    "hyper-marketing",
+    "hyper-localization"
+  ],
+  "author": "Brian Winkers",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bwinkers/activerules-merge-files/issues"
+  },
+  "homepage": "https://github.com/bwinkers/activerules-merge-files#readme",
+  "devDependencies": {
+    "chai": "^4.1.1",
+    "mocha": "^3.5.0",
+    "nyc": "^11.1.0"
+  },
+  "dependencies": {
+    "activerules-read-files-promise": "^1.0.3",
+    "sinon": "^3.2.1"
+  }
+}
