@@ -10,6 +10,7 @@
 ## Overview
 
 Promised-based module to provide merged JSON data from files. Useful for hyper-localization.
+WiP
 
 
 ## Install 
