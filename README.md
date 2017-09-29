@@ -6,6 +6,7 @@
 [![Coverage Status](https://img.shields.io/coveralls/bwinkers/activerules-merge-files.svg)](https://coveralls.io/github/bwinkers/activerules-merge-files)
 [![Dependency Status](https://img.shields.io/david/bwinkers/activerules-merge-files.svg?label=deps)](https://david-dm.org/bwinkers/activerules-merge-files)
 [![devDependency Status](https://img.shields.io/david/dev/bwinkers/activerules-merge-files.svg?label=devDeps)](https://david-dm.org/bwinkers/activerules-merge-files#info=devDependencies)
+[![Known Vulnerabilities](https://snyk.io/test/github/activerules/activerules-merge-files/badge.svg)](https://snyk.io/test/github/activerules/activerules-merge-files)
 
 ## Overview
 
