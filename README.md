@@ -26,3 +26,4 @@ WiP
 ```
     npm test
 ```
+Checkout [ActiveRules Phalcon](https://github.com/bwinkers/docker-php7-phalcon)
